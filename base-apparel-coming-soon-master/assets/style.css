@@ -14,6 +14,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    min-width: 330px;
 }
 
 main {
@@ -31,9 +32,10 @@ main {
 
 h1 {
     text-transform: uppercase;
-    font-size: 4em;
-    letter-spacing: 20px;
-    margin: 100px 0 20px 0;
+    font-size: 3.8em;
+    letter-spacing: 18px;
+    line-height: 1em;
+    margin: 130px 0 0px 0;
 }
 
 .lighter {
@@ -53,11 +55,11 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 0px 100px 0 15vw;
+    margin: 0px 100px 0 10vw;
 }
 
 .logo {
-    width: 200px;
+    width: 160px;
     margin-top: 60px;
 }
 
@@ -82,11 +84,11 @@ form {
 }
 
 #email {
-    width: 100%;
-    border: 0.5px solid var(--color-primaryRed);
+    width: 80%;
+    border: 0.3px solid var(--color-primaryRed);
     border-radius: 100px;
-    padding: 20px 80px 20px 30px;
-    margin-top: 20px;
+    padding: 16px 80px 16px 30px;
+    margin-top: 10px;
     color: var(--color-primaryRed);
     font-size: 16px;
     font-family:'Josefin Sans', sans-serif;
@@ -101,11 +103,11 @@ form {
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
     border-radius: 40px;
-    padding: 18px 50px;
-    box-shadow: 0px 14px 30px 0.2px var(--color-primaryRed);
+    padding: 10px 45px;
+    box-shadow: 0px 5px 16px 1px var(--color-primaryRed);
     cursor: pointer;
     position: relative;
-    bottom: 61px;
+    bottom: 53px;
     left: 100%;
 }
 
@@ -120,14 +122,15 @@ input:focus {
 
 .arrow-icon {
     width: 14px;
-    height: auto;
+    margin-top: 50%;
+    margin-right: 50%;
 }
 
 .error-icon {
     display: none;
     position: absolute;
-    top: 40px;
-    left: 57%;
+    top: 25px;
+    left: 270px;
 }
 
 .text {
@@ -136,6 +139,7 @@ input:focus {
     position: absolute;
     top: 100px;
     left: 30px;
+    padding-bottom: 50px;
 }
 
 .mobile-image {
@@ -174,20 +178,20 @@ input:focus {
     }
     
     #email {
-        width: 90%;
+        max-width: 90%;
         padding: 15px 80px 15px 30px;
         margin: 0 auto;
     }
 
     #submit {
-        padding: 14px 32px;
+        padding: 11px 35px;
         bottom: 50px;
-        left: 84%;
+        left: 80%;
     }
 
     .error-icon {
         top: 15px;
-        left: 100%;
+        left: 90%;
     }
 
     .arrow-icon {
